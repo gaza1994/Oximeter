@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+captures/
+
+# Local configuration - machine specific, never commit
+local.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Build outputs. Publish APKs as GitHub Releases rather than committing them,
+# so the repository does not grow by 11 MB per build.
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output.json
+
+# Keystores - never commit signing material
+*.jks
+*.keystore
+keystore.properties
+
+# Captures from the probe script
+*.csv
+*.log

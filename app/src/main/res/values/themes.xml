@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.Oximeter" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#FF05080A</item>
+        <item name="android:navigationBarColor">#FF05080A</item>
+        <item name="android:windowBackground">#FF05080A</item>
+    </style>
+</resources>
