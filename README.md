@@ -52,3 +52,18 @@ I've included two handy Python scripts if you want to tinker without rebuilding 
 ```bash
 python tools/oxi_probe.py scan
 python tools/oxi_probe.py listen <ADDR> --csv run1.csv
+
+```
+
+**`analyse_trace.py`** takes those CSVs and reports how the two traces relate (which is exactly how we figured out what the second one was doing!):
+
+```bash
+python tools/analyse_trace.py baseline.csv loose.csv moving.csv
+
+```
+
+## Licence
+
+Licensed under the [MIT License](https://www.google.com/search?q=LICENSE).
+
+Absolutely no vendor code is included or redistributed here. The protocol was reverse-engineered simply by observing a device I own so I could interoperate with it.
