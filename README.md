@@ -1,3 +1,4 @@
+![Oximeter hero image](https://garethjohnstone.co.uk/og-image/oximeter)
 # Oxi Meter
 
 Welcome! Oxi Meter is a secondary Android display for Bluetooth LE pulse oximeters, designed so you can comfortably monitor readings from across the room.
